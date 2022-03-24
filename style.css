@@ -1,5 +1,5 @@
 * {
-    background-color: rebeccapurple;
+
 }
 :root{
     --default-font: small-caps 20px/34px 'Roboto Mono', monospace ;
@@ -17,10 +17,20 @@ body{
 }
 .container{
     background-color: black;
+    display: flex;
+    flex-direction: column;
     width: 60vw;
     height: 100vh;
     /*box-shadow: 15px 0 5px rgb(51, 23, 78) inset ;*/
     box-shadow: 0 0 20px 10px rgb(51, 23, 78);
     border-left: 7px solid rgba(51, 23, 78, 0.795);
 
+}
+.container div{
+    background-color: black;
+}
+.header{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
 }
