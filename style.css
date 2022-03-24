@@ -6,7 +6,8 @@ body{
     display: flex;
     justify-content: end;
     background: rebeccapurple url('./pixelCity.jpeg') no-repeat left top;
-    background-size: cover;
+    background-size: 100%;
+    background-attachment: fixed;
     padding:0;
     margin: 0;
     color: azure;
@@ -17,7 +18,6 @@ body{
     display: flex;
     flex-direction: column;
     width: 42vw;
-    height: 100vh;
     /*box-shadow: 15px 0 5px rgb(51, 23, 78) inset ;*/
     box-shadow: 0 0 15px 15px rgba(51, 23, 78, 0.795);
     border-left: 3px solid rgba(51, 23, 78, 0.795);
@@ -50,13 +50,13 @@ body{
     flex-direction: column;
     gap: 15px;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 .inputGroup input{
-    height: 40px;
-    width: 200px;
+    height: 35px;
+    width: 175px;
     font-size: 85%;
-    margin: 7px 5px;
+    margin: 4px 2px;
     border: 4px solid rgb(224, 122, 245);
     border-radius: 10px;
 }
