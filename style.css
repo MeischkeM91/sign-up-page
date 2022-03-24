@@ -1,6 +1,3 @@
-* {
-
-}
 :root{
     --default-font: small-caps 24px/24px 'Roboto Mono', monospace ;
 }
@@ -60,4 +57,12 @@ body{
     width: 200px;
     font-size: 85%;
     margin: 7px 5px;
+    border: 4px solid rgb(224, 122, 245);
+    border-radius: 10px;
+}
+.inputGroup input:valid{
+    border: 4px solid rebeccapurple;
+}
+.pwRules{
+    font-size: 20px;
 }
