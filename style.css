@@ -74,3 +74,15 @@ body{
     border-radius: 20px;
     padding: 15px 20px;
 }
+.logInContainer{
+    text-align: center;
+}
+.logInContainer a:link{
+    color: rgb(224, 122, 245);
+}
+.logInContainer a:hover{
+    color: rebeccapurple;
+}
+.logInContainer a:visited{
+    color: rgba(51, 23, 78);
+}
