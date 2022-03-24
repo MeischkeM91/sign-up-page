@@ -2,7 +2,7 @@
 
 }
 :root{
-    --default-font: small-caps 20px/34px 'Roboto Mono', monospace ;
+    --default-font: small-caps 24px/24px 'Roboto Mono', monospace ;
 }
 
 body{
@@ -30,7 +30,14 @@ body{
     background-color: black;
 }
 .header{
-    font-size: 40px;
+    font-size: 48px;
     text-align: center;
     margin-top: 80px;
+}
+.disclaimer{
+    font-style: italic;
+    text-align: center;
+}
+.intro{
+    margin: 5px 50px ;
 }
