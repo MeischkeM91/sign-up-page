@@ -22,17 +22,18 @@
         <div class="form-container">
             <form class="regForm" action="http://httpbin.org/post" method="post">
                 <div id="nameInput" class="inputGroup">
-                    <input type="text" id="fName" name="fName" placeholder="First Name">
-                    <input type="text" id="lName" name="lName" placeholder="Last Name">
+                    <input type="text" id="fName" name="fName" placeholder="First Name" pattern="[a-zA-Z]+" required>
+                    <input type="text" id="lName" name="lName" placeholder="Last Name" pattern="[a-zA-Z]+" required>
                 </div>
                 <div id="contactInput" class="inputGroup">
-                    <input type="email" id="email" name="email" placeholder="Account Email">
-                    <input type="text" id="phone" name="phone" placeholder="Phone Number">
+                    <input type="email" id="email" name="email" placeholder="Account Email" required>
+                    <input type="text" id="phone" name="phone" placeholder="(Optional)Phone Num" pattern="^\d{3}\d{3}\d{4}$">
                 </div>
                 <div id="passwordInput" class="inputGroup">
-                    <input type="password" id="password" name="password" placeholder="Password">
+                    <input type="password" id="password" name="password" placeholder="Password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
                     <input type="password" id="passwordConfirm" name="passwordConfirm" placeholder="Confirm Password">
                 </div>
+                <button type="submit">Submit</button>
             </form>
         </div>
     </div>
