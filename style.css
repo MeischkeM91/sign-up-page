@@ -66,3 +66,11 @@ body{
 .pwRules{
     font-size: 20px;
 }
+#submitButton{
+    font: var(--default-font);
+    background-color: rgba(51, 23, 78);
+    color: azure;
+    border: 4px solid rebeccapurple;
+    border-radius: 20px;
+    padding: 15px 20px;
+}
