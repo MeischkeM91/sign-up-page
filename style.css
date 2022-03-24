@@ -1,16 +1,26 @@
 * {
     background-color: rebeccapurple;
 }
+:root{
+    --default-font: small-caps 20px/34px 'Roboto Mono', monospace ;
+}
+
 body{
     display: flex;
     justify-content: end;
-    background: rebeccapurple url('./pixelCity.jpeg') no-repeat right top;
+    background: rebeccapurple url('./pixelCity.jpeg') no-repeat left top;
     background-size: cover;
     padding:0;
     margin: 0;
+    color: azure;
+    font: var(--default-font);
 }
 .container{
-    background-color: dimgrey;
+    background-color: black;
     width: 60vw;
     height: 100vh;
+    /*box-shadow: 15px 0 5px rgb(51, 23, 78) inset ;*/
+    box-shadow: 0 0 20px 10px rgb(51, 23, 78);
+    border-left: 7px solid rgba(51, 23, 78, 0.795);
+
 }
