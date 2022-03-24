@@ -19,25 +19,26 @@ body{
     background-color: black;
     display: flex;
     flex-direction: column;
-    width: 60vw;
+    width: 40vw;
     height: 100vh;
     /*box-shadow: 15px 0 5px rgb(51, 23, 78) inset ;*/
     box-shadow: 0 0 20px 10px rgb(51, 23, 78);
-    border-left: 7px solid rgba(51, 23, 78, 0.795);
+    border-left: 5px solid rgba(51, 23, 78, 0.795);
 
 }
 .container div{
     background-color: black;
 }
 .header{
-    font-size: 48px;
+    font: small-caps 48px/35px 'Roboto Mono', monospace ;;
     text-align: center;
-    margin-top: 80px;
+    margin: 70px 15px 60px 15px;
 }
 .disclaimer{
     font-style: italic;
     text-align: center;
+    margin: 5px 40px;
 }
 .intro{
-    margin: 5px 50px ;
+    margin: 5px 30px;
 }
