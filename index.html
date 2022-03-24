@@ -31,7 +31,7 @@
                 </div>
                 <div id="passwordInput" class="inputGroup">
                     <input type="password" id="password" name="password" placeholder="Password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
-                    <input type="password" id="passwordConfirm" name="passwordConfirm" placeholder="Confirm Password" required>
+                    <input type="password" id="passwordConfirm" name="passwordConfirm" placeholder="Confirm Password">
                 </div>
                 <div class="pwRules">
                     <em>Your password must:
@@ -43,7 +43,7 @@
                         </ul>
                     </em> 
                 </div>
-                <button type="submit">Submit</button>
+                <button type="button" onclick="createAccount()">Create</button>
             </form>
         </div>
     </div>
