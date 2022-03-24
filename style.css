@@ -19,11 +19,11 @@ body{
     background-color: black;
     display: flex;
     flex-direction: column;
-    width: 40vw;
+    width: 42vw;
     height: 100vh;
     /*box-shadow: 15px 0 5px rgb(51, 23, 78) inset ;*/
-    box-shadow: 0 0 20px 10px rgb(51, 23, 78);
-    border-left: 5px solid rgba(51, 23, 78, 0.795);
+    box-shadow: 0 0 15px 15px rgba(51, 23, 78, 0.795);
+    border-left: 3px solid rgba(51, 23, 78, 0.795);
 
 }
 .container div{
@@ -40,5 +40,24 @@ body{
     margin: 5px 40px;
 }
 .intro{
-    margin: 5px 30px;
+    margin: 5px 30px 35px 30px;
+}
+.form-container{
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(51, 23, 78, 0.795), rgb(224, 122, 245)) 1;
+    border-left:0;
+}
+.regForm{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 20px;
+}
+.inputGroup input{
+    height: 40px;
+    width: 200px;
+    font-size: 85%;
+    margin: 7px 5px;
 }
